@@ -1,9 +1,12 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid red!important;
   padding: 0;
   margin:  0;
+}
 
+a:hover {
+    cursor: pointer;
 }
 
 header {
@@ -44,5 +47,136 @@ header {
 
 .menu-icon{
   box-sizing: border-box;
-    
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 900px;
+  max-height: 1800px;
+}
+
+main h1 {
+  margin-left: 50%;
+  position: absolute;
+}
+
+.latest {
+    border: 1px solid red;
+    width: 50%;
+    min-height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 55%;
+  margin: 0 auto;
+  min-height: 200px;
+  justify-items: space-around;
+}
+
+.middlediv {
+  display: flex;
+  min-height: 250px;
+  align-items: top;
+  max-width: 24%;
+}
+
+.break {
+  flex-basis: 100%;
+  width: 0;
+}
+
+#smashing {
+  max-width: 48%;
+}
+
+.seelatest {
+  border: 1px solid red;
+  width: 50%;
+  max-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ethicalhandbook {
+  width: 100%;
+  min-height: 100px;
+}
+
+.communitylinks {
+  display: flex;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.person_of_the_week {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: calc(.35842vw + .95296em);
+  min-height: 120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.person_of_the_week img {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.person_of_the_week div {
+  width: 70%;
+}
+
+.communitylinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.communitylinks div {
+  width: 50%;
+}
+
+.featuredbook {
+    padding: 4rem 5rem;
+    text-align: start;
+}
+
+.curatedposts {
+  display: grid;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 200px;
+  justify-content: space-between;
+}
+
+.posts div {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: rgb(190, 188, 188);
+  width: 24.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.smashingNewsletter {
+  display: grid;
+  width: 90%;
+  min-height: 100px;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  text-align: center;
+  justify-items: center;
+}
+
+.smashingNewsletter div {
+  width: 50%;
 }
