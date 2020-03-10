@@ -1,16 +1,48 @@
 * {
-    padding: 0;
-    margin:  0;
+  box-sizing: border-box;
+  border: 1px solid red;
+  padding: 0;
+  margin:  0;
 
+}
+
+header {
+  min-height: 6.2375rem;
 }
 
 .nav-bar{
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
 
-    display: flex;
-    flex-direction: row;
+.nav-bar div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.nav-bar img{
+    max-height: 50px;
+}
+
+#logo{
+  background-color: blue;
+  max-height: 150px;
 }
 
 .menu-icon{
-    box-sizing: border-box;
+  box-sizing: border-box;
     
 }
