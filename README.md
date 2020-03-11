@@ -1,8 +1,8 @@
 # Smashing Magazine Heatmap
 
-> Welcome to our Smashing Magazine's clone, built with html and css. Please enjoy and leave a comment. 
+> Welcome to my Smashing Magazine's heatmap, built with html and css. Please enjoy and leave a comment. The purpose of this exercise is to show which areas of the webpage are more visually striking and for that a gray scale is used. The darkers colors (with the exception of the main title, where the white color means that it is the most vissualy appealing section of the website) represent a greater degree of visual appeal, while the lighter colors represent less visually striking parts of the website.
 
-![screenshot](/img/screenshot.png)
+![screenshot](/images/screenshot.jpeg)
 
 Additional description about the project and its features.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/Design-UX-UI-Teardown/860bd95ba1a6b7e9de8189a1c8d6c4c781779e29/index.html)
 
 
 ## Getting Started
