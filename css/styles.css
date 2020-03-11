@@ -1,23 +1,28 @@
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0;
-  margin:  0;
+  margin: 0;
+}
+
+h3 {
+  display: none;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
 a:hover {
   cursor: pointer;
 }
 
-.nav-bar{
+.nav-bar {
   background-color: gray;
   display: flex;
   flex-direction: row;
@@ -32,21 +37,14 @@ a:hover {
   font-weight: 600;
 }
 
- .nav-bar p {
+.nav-bar p {
   margin: 0.3rem auto;
   font-style: italic;
   padding: 0;
- }
+}
 
-.nav-bar div {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  padding-top: 1.5em;
-  min-height: 160px;
+.menu-icon {
+  width: 14%;
 }
 
 .menu-icon:hover {
@@ -60,10 +58,6 @@ a:hover {
 
 #logo {
   margin-top: 0;
-}
-
-.menu-icon{
-  width: 14%;
 }
 
 .top {
@@ -91,7 +85,7 @@ main h1 {
   min-height: 50%;
   align-items: center;
   justify-content: center;
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .latop {
@@ -181,14 +175,9 @@ main h1 {
   width: 20%;
 }
 
-.ethicalhandbook div {
-  width: 80%;
-  margin: auto;
-}
-
 .communitylinks {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding: 1em;
   margin: 0 auto;
@@ -198,49 +187,6 @@ main h1 {
 .communitylinks .seelatest {
   margin: 1em auto;
   line-height: 7em;
-}
-
-.communitylinks div {
-  border: 1px solid gray;
-  border-radius: 3px;
-  width: 48%;
-  min-height: 150px;
-  margin: 0.07em auto;
-  line-height: 10em;
-  text-align: center;
-}
-
-.person_of_the_week {
-  display: grid;
-  grid-template-areas:
-   "a b";
-  font-size: calc(.35842vw + .95296em);
-  min-height: 120px;
-  width: 100%;
-  margin: 0 auto;
-  justify-items: center;
-  text-align: center;
-}
-
-.person_of_the_week div:first-child {
-  width: 20%;
-  height: 100%;
-  grid-area: a;
-  margin-left: -10rem;
-}
-
-.person_of_the_week div:nth-child(2) {
-  grid-area: b;
-  width: 100%;
-  height: 100%;
-  line-height: 6rem;
-  margin-right: 30%;
-  align-items: center;
-}
-
-.communitylinks {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .featuredbook {
@@ -265,15 +211,6 @@ main h1 {
   justify-content: space-around;
 }
 
-.posts div {
-  font-size: 1.1rem;
-  font-weight: 400;
-  background-color: rgb(190, 188, 188);
-  border: 1px solid rgb(184, 182, 182);
-  border-radius: 3px;
-  width: 23.5%;
-}
-
 .smashingNewsletter {
   display: grid;
   border: 1px solid white;
@@ -286,10 +223,6 @@ main h1 {
   align-items: center;
 }
 
-.smashingNewsletter div {
-  width: 50%;
-}
-
 footer {
   display: flex;
   flex-wrap: nowrap;
@@ -298,14 +231,53 @@ footer {
   min-height: 150px;
 }
 
-footer div:first-child {
-  margin-top: 3rem;
-}
-
 footer div {
   width: 85%;
   margin: 20px auto;
   text-align: center;
+}
+
+.communitylinks div {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 48%;
+  min-height: 150px;
+  margin: 0.07em auto;
+  line-height: 10em;
+  text-align: center;
+}
+
+.posts div {
+  font-size: 1.1rem;
+  font-weight: 400;
+  background-color: rgb(190, 188, 188);
+  border: 1px solid rgb(184, 182, 182);
+  border-radius: 3px;
+  width: 23.5%;
+}
+
+.nav-bar div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 1.5em;
+  min-height: 160px;
+}
+
+.smashingNewsletter div {
+  width: 50%;
+}
+
+.ethicalhandbook div {
+  width: 80%;
+  margin: auto;
+}
+
+footer div:first-child {
+  margin-top: 3rem;
 }
 
 footer ul {
@@ -324,7 +296,34 @@ footer ul li {
   padding: 0 5px;
 }
 
-.top >h1{
+.person_of_the_week {
+  display: grid;
+  grid-template-areas: "a b";
+  font-size: calc(0.35842vw + 0.95296em);
+  min-height: 120px;
+  width: 100%;
+  margin: 0 auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.person_of_the_week div:first-child {
+  width: 20%;
+  height: 100%;
+  grid-area: a;
+  margin-left: -10rem;
+}
+
+.person_of_the_week div:nth-child(2) {
+  grid-area: b;
+  width: 100%;
+  height: 100%;
+  line-height: 6rem;
+  margin-right: 30%;
+  align-items: center;
+}
+
+.top > h1 {
   position: absolute;
   width: 30%;
   margin: 2rem auto 0 35%;
@@ -336,6 +335,7 @@ footer ul li {
 .toptitle {
   color: black;
 }
+
 .topics {
   border-radius: 0.3rem;
   border: 2px solid white;
@@ -358,15 +358,15 @@ Color scale: Color 1 is the most striking one (visually), color 2 less so and so
 }
 
 .color2 {
-  background-color: rgb(63, 63, 63)
+  background-color: rgb(63, 63, 63);
 }
 
 .color3 {
-  background-color: rgb(95, 94, 94)
+  background-color: rgb(95, 94, 94);
 }
 
 .color4 {
-  background-color: rgb(126, 126, 126)
+  background-color: rgb(126, 126, 126);
 }
 
 .color5 {
@@ -378,5 +378,5 @@ Color scale: Color 1 is the most striking one (visually), color 2 less so and so
 }
 
 .whitet {
-    color: white;
+  color: white;
 }
