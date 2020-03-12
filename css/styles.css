@@ -1,0 +1,464 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.nav-bar {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+.nav-bar h2 {
+  font-weight: 600;
+}
+
+.nav-bar p {
+  margin: 0.3rem auto;
+  font-style: italic;
+  padding: 0;
+}
+
+.menu-icon {
+  width: 14%;
+}
+
+.menu-icon:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-bar img {
+  max-height: 50px;
+}
+
+#logo {
+  margin-top: 0;
+  width: 15%;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 900px;
+  max-height: 1800px;
+}
+
+main h1 {
+  position: absolute;
+  margin-left: 50%;
+  padding-bottom: 1rem;
+}
+
+.latest {
+  display: grid;
+  color: white;
+  grid-template-areas:
+    "latop"
+    "labottom";
+  border: 1px solid black;
+  font-size: 2rem;
+  width: 50%;
+  min-height: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.latop {
+  display: inline-block;
+  grid-area: latop;
+  height: 20%;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.wrote {
+  display: inline-block;
+  font-style: italic;
+  width: 20%;
+}
+
+.labottom {
+  grid-area: labottom;
+  margin: -5rem auto 0 auto;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  max-width: 95%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  min-height: 800px;
+  justify-items: space-around;
+  border-radius: 5px;
+}
+
+.middlediv {
+  display: grid;
+  min-height: 420px;
+  border: 2px solid white;
+  justify-content: space-around;
+  width: 33%;
+  border-radius: 3px;
+  padding: 5px;
+  line-height: 5em;
+}
+
+.middleauthor {
+  height: 60%;
+  margin-top: -2em;
+  text-decoration: none;
+}
+
+.smashing {
+  min-width: 66%;
+  min-height: 450px;
+  padding: 10px;
+  border: 2px solid white;
+  line-height: 5em;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+#smashnewsa {
+  line-height: 10rem;
+  margin: 0 auto;
+}
+
+.seelatest {
+  width: 100%;
+  max-height: 30px;
+  margin: 5px auto 0 auto;
+  text-align: center;
+}
+
+#moretwitter {
+  margin: 5em auto;
+}
+
+.ethicalhandbook {
+  display: flex;
+  width: 99%;
+  padding: 3px;
+  min-height: 200px;
+  text-align: center;
+  line-height: 10em;
+  margin: 1em auto;
+}
+
+#smashbook {
+  display: grid;
+  width: 80%;
+  line-height: 12rem;
+}
+
+#smashbookspan {
+  width: 30%;
+}
+
+#bookpic {
+  min-width: 200px;
+  width: 20%;
+  min-height: 200px;
+  line-height: 12rem;
+}
+
+#hndpic {
+  min-height: 300px;
+  max-width: 50%;
+  line-height: 20em;
+}
+
+.ethicalhandbook button {
+  margin: 1em auto;
+  width: 20%;
+}
+
+.communitylinks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1em;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+#smashingtvbtn {
+  background-color: rgb(110, 110, 110);
+  border: 0;
+  border-radius: 2px;
+  width: 20%;
+}
+
+.communitylinks .seelatest {
+  margin: 1em auto;
+  line-height: 7em;
+}
+
+.featuredbook {
+  display: flex;
+  padding: 3rem 5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.featuredbook button {
+  margin: 20px auto 20px 30px;
+  width: 20%;
+}
+
+.curatedposts {
+  min-height: 200px;
+  display: grid;
+  line-height: 10em;
+  text-align: center;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 200px;
+  justify-content: space-around;
+}
+
+.smashingNewsletter {
+  display: grid;
+  border: 1px solid white;
+  width: 90%;
+  min-height: 250px;
+  margin: 10px auto;
+  border-radius: 0.5em;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-items: center;
+  min-height: 150px;
+}
+
+footer div {
+  width: 85%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.communitylinks div {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 50%;
+  min-height: 150px;
+  margin: 0.07em auto;
+  line-height: 40em;
+  text-align: center;
+}
+
+#communitytwit {
+  margin: 4rem auto;
+  width: 20%;
+}
+
+#communitytwit2 {
+  margin: 6rem auto;
+  width: 20%;
+}
+
+.posts div {
+  font-size: 1.1rem;
+  font-weight: 400;
+  background-color: rgb(190, 188, 188);
+  border: 1px solid rgb(184, 182, 182);
+  border-radius: 3px;
+  width: 24.5%;
+}
+
+.nav-bar div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 1.5em;
+  min-height: 160px;
+}
+
+.smashingNewsletter div {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 12rem;
+}
+
+.ethicalhandbook div {
+  width: 80%;
+  margin: auto;
+}
+
+footer div:first-child {
+  margin-top: 3rem;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  list-style-position: inside;
+  list-style-type: disc;
+  margin: 0 auto;
+}
+
+footer ul li {
+  list-style-position: inside;
+  margin: 2px;
+  padding: 0 5px;
+}
+
+.person_of_the_week {
+  display: grid;
+  grid-template-areas: "a b";
+  font-size: calc(0.35842vw + 0.95296em);
+  min-height: 250px;
+  width: 100%;
+  margin: 0 auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.person_of_the_week div:first-child {
+  width: 75%;
+  height: 100%;
+  grid-area: a;
+  margin-left: -5rem;
+  line-height: 12rem;
+}
+
+.person_of_the_week div:nth-child(2) {
+  grid-area: b;
+  width: 100%;
+  height: 100%;
+  line-height: 12rem;
+  margin-right: 30%;
+  align-items: center;
+}
+
+.top > h1 {
+  position: absolute;
+  width: 30%;
+  margin: 2rem auto 0 35%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.toptitle {
+  color: black;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.topics {
+  border-radius: 0.3rem;
+  border: 2px solid white;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  margin: 0 2em;
+  width: 9em;
+}
+
+.Go {
+  margin: 5em auto 0 -11rem;
+}
+
+#subscribe {
+  display: inline-block;
+  border-radius: 3px;
+  width: 30%;
+  line-height: 2rem;
+  padding: 3px;
+  margin: 2rem auto;
+}
+
+/*
+Color scale: Color 1 is the most striking one (visually), color 2 less so and so on in a descending order
+*/
+
+.color1 {
+  background-color: rgb(30, 30, 30);
+}
+
+.color2 {
+  background-color: rgb(45, 45, 45);
+}
+
+.color3 {
+  background-color: rgb(60, 60, 60);
+}
+
+.color4 {
+  background-color: rgb(75, 75, 75);
+}
+
+.color5 {
+  background-color: rgb(90, 90, 90);
+}
+
+.color6 {
+  background-color: rgb(100, 100, 100);
+}
+
+.color7 {
+  background-color: rgb(115, 115, 115);
+}
+
+.color8 {
+  background-color: rgb(135, 135, 135);
+}
+
+.color9 {
+  background-color: rgb(150, 150, 150);
+}
+
+.color10 {
+  background-color: rgb(170, 170, 170);
+}
+
+.whiteb {
+  background-color: white;
+}
+
+.whitet {
+  color: white;
+}
