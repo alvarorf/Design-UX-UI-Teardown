@@ -138,7 +138,6 @@ main h1 {
 
 .smashing {
   min-width: 66%;
-  margin: 0;
   min-height: 450px;
   padding: 10px;
   border: 2px solid white;
@@ -189,9 +188,10 @@ main h1 {
   min-height: 200px;
   line-height: 12rem;
 }
+
 #hndpic {
   min-height: 300px;
-  max-width: 50%;;
+  max-width: 50%;
   line-height: 20em;
 }
 
@@ -210,12 +210,12 @@ main h1 {
 }
 
 #smashingtvbtn {
-  background-color: rgb(110,110,110);
+  background-color: rgb(110, 110, 110);
   border: 0;
   border-radius: 2px;
   width: 20%;
-  
 }
+
 .communitylinks .seelatest {
   margin: 1em auto;
   line-height: 7em;
@@ -383,7 +383,7 @@ footer ul li {
 .toptitle {
   color: black;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 1rem;
   line-height: 2rem;
   font-size: 1.1rem;
@@ -454,6 +454,7 @@ Color scale: Color 1 is the most striking one (visually), color 2 less so and so
 .color10 {
   background-color: rgb(170, 170, 170);
 }
+
 .whiteb {
   background-color: white;
 }

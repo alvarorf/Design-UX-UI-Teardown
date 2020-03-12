@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alvarorf/Design-UX-UI-Teardown/860bd95ba1a6b7e9de8189a1c8d6c4c781779e29/index.html)
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/Design-UX-UI-Teardown/695d66f24edf15b5618c4c99cb5f3b0ea2ea088a/index.html)
 
 
 ## Getting Started
