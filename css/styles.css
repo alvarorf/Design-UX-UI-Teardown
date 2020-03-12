@@ -144,6 +144,12 @@ main h1 {
   border: 2px solid white;
   line-height: 5em;
   border-radius: 3px;
+  margin: 0 auto;
+}
+
+#smashnewsa {
+  line-height: 10rem;
+  margin: 0 auto;
 }
 
 .seelatest {
@@ -158,22 +164,37 @@ main h1 {
 }
 
 .ethicalhandbook {
-  width: 100%;
+  display: flex;
+  width: 99%;
+  padding: 3px;
   min-height: 200px;
   text-align: center;
   line-height: 10em;
   margin: 1em auto;
 }
 
-.ethicalhandbook button {
-  line-height: 3em;
+#smashbook {
+  display: grid;
+  width: 80%;
+  line-height: 12rem;
 }
 
+#smashbookspan {
+  width: 30%;
+}
+
+#bookpic {
+  min-width: 200px;
+  width: 20%;
+  min-height: 200px;
+  line-height: 12rem;
+}
 #hndpic {
   min-height: 300px;
   max-width: 50%;;
   line-height: 20em;
 }
+
 .ethicalhandbook button {
   margin: 1em auto;
   width: 20%;
@@ -201,18 +222,22 @@ main h1 {
 }
 
 .featuredbook {
+  display: flex;
   padding: 3rem 5rem;
   text-align: center;
   line-height: 1.5rem;
 }
 
 .featuredbook button {
-  margin: 20px auto;
+  margin: 20px auto 20px 30px;
+  width: 20%;
 }
 
 .curatedposts {
+  min-height: 200px;
   display: grid;
-  line-height: 2em;
+  line-height: 10em;
+  text-align: center;
 }
 
 .posts {
@@ -251,11 +276,21 @@ footer div {
 .communitylinks div {
   border: 1px solid gray;
   border-radius: 3px;
-  width: 48%;
+  width: 50%;
   min-height: 150px;
   margin: 0.07em auto;
-  line-height: 10em;
+  line-height: 40em;
   text-align: center;
+}
+
+#communitytwit {
+  margin: 4rem auto;
+  width: 20%;
+}
+
+#communitytwit2 {
+  margin: 6rem auto;
+  width: 20%;
 }
 
 .posts div {
@@ -264,7 +299,7 @@ footer div {
   background-color: rgb(190, 188, 188);
   border: 1px solid rgb(184, 182, 182);
   border-radius: 3px;
-  width: 23.5%;
+  width: 24.5%;
 }
 
 .nav-bar div {
@@ -280,6 +315,8 @@ footer div {
 
 .smashingNewsletter div {
   width: 50%;
+  margin: 0 auto;
+  line-height: 12rem;
 }
 
 .ethicalhandbook div {
@@ -364,9 +401,14 @@ footer ul li {
 .Go {
   margin: 5em auto 0 -11rem;
 }
+
 #subscribe {
   display: inline-block;
   border-radius: 3px;
+  width: 30%;
+  line-height: 2rem;
+  padding: 3px;
+  margin: 2rem auto;
 }
 
 /*
